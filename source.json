@@ -1,0 +1,26 @@
+{
+  "name": "Test Source",
+  "identifier": "com.test.source",
+  "apps": [
+    {
+      "name": "Test",
+      "bundleIdentifier": "com.test.app",
+      "developerName": "Test Dev",
+      "localizedDescription": "Test app description",
+      "iconURL": "https://raw.githubusercontent.com/test/test/main/icon.png",
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "date": "2026-07-22",
+          "downloadURL": "https://raw.githubusercontent.com/test/test/main/app.ipa",
+          "size": 10000000
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    }
+  ]
+}
